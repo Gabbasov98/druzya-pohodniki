@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/air-datepicker.css">
+    <link rel="stylesheet" href="libs/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="" class="header__logo">
+                        <img src="img/logo.webp" alt="">
+                    </a>
+
+                    <div class="header__right">
+                        <div class="m-menu">
+                            <button class="m-menu__close">
+                                <img src="img/close.svg" alt="">
+                            </button>
+                            <nav class="m-nav">
+                                <a href="" class="m-nav__link"><span>О нас</span></a>
+                                <a href="" class="m-nav__link _active"><span>Туры</span></a>
+                                <a href="" class="m-nav__link"><span>Статьи</span></a>
+                                <a href="" class="m-nav__link"><span>Фото и видео</span></a>
+                                <a href="" class="m-nav__link"><span>Вопросы-ответы</span></a>
+                                <a href="" class="m-nav__link"><span>Контакты</span></a>
+                            </nav>
+                        </div>
+
+
+                        <div class="header-action">
+                            <a href="" class="header-action__favourite">
+                                <img src="img/favourite.svg" alt="">
+                            </a>
+                            <a href="" class="header-action__cart">
+                                <img src="img/cart.svg" alt="">
+                                <span class="_pin"><span>1</span></span>
+                            </a>
+                            <a href="" class="header-action__lang">
+                                <span>EN</span>
+                            </a>
+
+                            <button class="burger">
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="content">
+
+            <section class="main m-backdrop" style="background-image: url(img/main-hero.webp);">
+                <div class="container">
+                    <div class="main__inner">
+                        <div class="main__title text48 text24-tablet">
+                            Незабываемые путешествия <br>
+                            по Сахалину и Курилам — выбирайте свое приключение
+                        </div>
+
+                        <div class="main__bottom">
+                            <form class="main-search">
+                                <fieldset class="fg main-search__select">
+                                    <select class="form-select">
+                                        <option selected>Тип путешествия</option>
+                                        <option value="1">Тип путешествия</option>
+                                        <option value="2">Тип путешествия 2</option>
+                                        <option value="3">Тип путешествия 3</option>
+                                    </select>
+                                </fieldset>
+                                <fieldset class="fg main-search__select">
+                                    <select class="form-select">
+                                        <option selected>Куда вы хотите?</option>
+                                        <option value="1">Куда вы хотите?</option>
+                                        <option value="2">Куда вы хотите? 2</option>
+                                        <option value="3">Куда вы хотите? 3</option>
+                                    </select>
+                                </fieldset>
+                                <fieldset class="fg main-search__date">
+                                    <input type="text" placeholder="Даты" class="form-control date-input">
+                                </fieldset>
+                                <button class="main-search__btn m-btn m-btn-yellow">
+                                    <span>Найти</span>
+                                </button>
+                            </form>
+
+                            <div class="main-gift">
+                                <div class="main-gift__img">
+                                    <img src="img/gift-sert_icon.svg" alt="">
+                                </div>
+                                <div class="main-gift__text text18">
+                                    Дарите не деньги, <br>
+                                    а впечатления!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tours">
+                <div class="container">
+                    <div class="tours__top">
+                        <div class="text46">
+                            Ближайшие туры
+                        </div>
+                        <div class="text18">
+                            Не откладывай на завтра то, что можешь сделать сегодня!
+                        </div>
+                    </div>
+                    <div class="tours-slider slider">
+                        <div class="slider__wrap">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">17.06.2023 – 24.06.2023</span>
+                                                </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Таинственные острова</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Яркий топовый совмещенный тур по Сахалину и Итурупу. Дикие пляжи, свежайшие морепродукты и горячие источники ждут вас.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">8 дней / 7 ночей</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, водный тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-card__price">
+
+                                                    <span class="text16">142 000 ₽</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour2.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">2.06.2023</span>
+                                                </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Мыс Грина</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Умиротворенная прогулка по побережью, исследование тунелей и бокал вина на берегу Анивского залива.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">1 день</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-card__price">
+
+                                                    <span class="text16">3 500 ₽</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour2.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">2.06.2023</span>
+                                                </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Мыс Грина</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Умиротворенная прогулка по побережью, исследование тунелей и бокал вина на берегу Анивского залива.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">1 день</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-card__price">
+
+                                                    <span class="text16">3 500 ₽</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-nav">
+                            <div class="swiper-button swiper-button-prev">
+                                <img src="img/prev.svg" alt="">
+                            </div>
+                            <div class="swiper-button swiper-button-next">
+                                <img src="img/next.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="our-counts" style="background-image: url(img/main-numbers.jpg);">
+                <div class="container">
+                    <div class="text46">
+                        Мы в цифрах
+                    </div>
+
+                    <div class="our-counts__items">
+                        <div class="count-item">
+                            <div class="count-item__num">
+                                10
+                            </div>
+                            <div class="count-item__text">
+                                <span class="text24 text20-tablet">лет работы</span>
+                            </div>
+                        </div>
+
+                        <div class="count-item">
+                            <div class="count-item__num">
+                                5 500
+                            </div>
+                            <div class="count-item__text">
+                                <span class="text24 text20-tablet">счастливых туристов</span>
+                            </div>
+                        </div>
+
+                        <div class="count-item">
+                            <div class="count-item__num">
+                                45
+                            </div>
+                            <div class="count-item__text">
+                                <span class="text24 text20-tablet">авторских туров и экскурсий</span>
+                            </div>
+                        </div>
+
+                        <div class="count-item">
+                            <div class="count-item__num">
+                                32
+                            </div>
+                            <div class="count-item__text">
+                                <span class="text24 text20-tablet">машины в нашем автопарке</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="our-offers">
+                <div class="container">
+                    <div class="text46">
+                        Мы предлагаем
+                    </div>
+                    <div class="offers-slider slider">
+                        <div class="slider__wrap">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="offer-card">
+                                            <div class="offer-card__img m-backdrop">
+                                                <img src="img/places-1.webp" alt="">
+                                            </div>
+                                            <div class="offer-card__text">
+                                                <span class="text22">Пешие туры</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="offer-card">
+                                            <div class="offer-card__img m-backdrop">
+                                                <img src="img/places-2.webp" alt="">
+                                            </div>
+                                            <div class="offer-card__text">
+                                                <span class="text22">Водные туры</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="offer-card">
+                                            <div class="offer-card__img m-backdrop">
+                                                <img src="img/places-3.webp" alt="">
+                                            </div>
+                                            <div class="offer-card__text">
+                                                <span class="text22">Зимние туры</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="offer-card">
+                                            <div class="offer-card__img m-backdrop">
+                                                <img src="img/places-4.webp" alt="">
+                                            </div>
+                                            <div class="offer-card__text">
+                                                <span class="text22">Гастрономические туры</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="offer-card">
+                                            <div class="offer-card__img m-backdrop">
+                                                <img src="img/places-4.webp" alt="">
+                                            </div>
+                                            <div class="offer-card__text">
+                                                <span class="text22">Гастрономические туры</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-nav">
+                            <div class="swiper-button swiper-button-prev">
+                                <img src="img/prev.svg" alt="">
+                            </div>
+                            <div class="swiper-button swiper-button-next">
+                                <img src="img/next.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-offers__mask">
+                    <svg width="1440" height="192" viewBox="0 0 1440 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0L80 5.3C160 11 320 21 480 37.3C640 53 800 75 960 80C1120 85 1280 75 1360 69.3L1440 64V192H1360C1280 192 1120 192 960 192C800 192 640 192 480 192C320 192 160 192 80 192H0V0Z" fill="#FFF" />
+                    </svg>
+                </div>
+            </section>
+
+            <section class="popular-tours">
+                <div class="container">
+                    <div class="popular-tours__top">
+                        <div class="popular-tours__text">
+                            <div class="text46">
+                                Популярные туры и экскурсии
+                            </div>
+                            <div class="text18">
+                                Погрузитесь в неизведанный мир. Величие первозданной природы. Причудливость пейзажей. Дыхание вулканов на необитаемых островах. Тихое умиротворение океана. Наши путешествия изменит вас навсегда.
+                            </div>
+                        </div>
+                        <a href="" class="popular-tours__link m-btn m-btn-yellow">
+                            <span>Все туры</span>
+                        </a>
+                    </div>
+                    <div class="popular-tours__items grid-column3 grid-column2-tablet grid-full-mob">
+                        <div class="tour-card">
+                            <button class="tour-card__favourite favourite-btn">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                </svg>
+                            </button>
+                            <a href="" class="tour-card__img">
+                                <img src="img/popular-1.webp" alt="">
+                            </a>
+                            <div class="tour-card__content">
+                                <div class="tour-card__date">
+                                    <span class="text18 text16-tablet blue-text">17.06.2023 – 24.06.2023, + 8 дат</span>
+                                </div>
+                                <a href="" class="tour-card__title">
+                                    <span class="text26 text24-tablet semi-bold-text">Таинственные острова</span>
+                                </a>
+
+                            </div>
+                            <div class="tour-card__bottom">
+                                <div class="tour-card__info">
+                                    <div class="tour-card__duration">
+                                        <span class="text16">8 дней / 7 ночей</span>
+                                    </div>
+                                    <div class="tour-card__type">
+                                        <span class="text16">Поход, водный тур, доступен <br> с кэшбеком</span>
+                                    </div>
+                                </div>
+                                <div class="tour-card__price">
+
+                                    <span class="text16">142 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tour-card">
+                            <button class="tour-card__favourite favourite-btn">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                </svg>
+                            </button>
+                            <a href="" class="tour-card__img">
+                                <img src="img/popular-2.webp" alt="">
+                            </a>
+                            <div class="tour-card__content">
+                                <div class="tour-card__date">
+                                    <span class="text18 text16-tablet blue-text">17.02.2023 – 24.02.2023, + 8 дат</span>
+                                </div>
+                                <a href="" class="tour-card__title">
+                                    <span class="text26 text24-tablet semi-bold-text">Зимний Итуруп</span>
+                                </a>
+
+                            </div>
+                            <div class="tour-card__bottom">
+                                <div class="tour-card__info">
+                                    <div class="tour-card__duration">
+                                        <span class="text16">8 дней / 7 ночей</span>
+                                    </div>
+                                    <div class="tour-card__type">
+                                        <span class="text16">Поход, экстрим тур, доступен <br> с кэшбеком</span>
+                                    </div>
+                                </div>
+                                <div class="tour-card__price">
+
+                                    <span class="text13">64 000 ₽</span>
+
+                                    <span class="text16">59 500 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tour-card">
+                            <button class="tour-card__favourite favourite-btn">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                </svg>
+                            </button>
+                            <a href="" class="tour-card__img">
+                                <img src="img/popular-3.webp" alt="">
+                            </a>
+                            <div class="tour-card__content">
+                                <div class="tour-card__date">
+                                    <span class="text18 text16-tablet blue-text">17.06.2023, 21.06.2023, + 8 дат</span>
+                                </div>
+                                <a href="" class="tour-card__title">
+                                    <span class="text26 text24-tablet semi-bold-text">Маяк Анива</span>
+                                </a>
+
+                            </div>
+                            <div class="tour-card__bottom">
+                                <div class="tour-card__info">
+                                    <div class="tour-card__duration">
+                                        <span class="text16">10 часов</span>
+                                    </div>
+                                    <div class="tour-card__type">
+                                        <span class="text16">Водный тур, доступен <br> с кэшбеком</span>
+                                    </div>
+                                </div>
+                                <div class="tour-card__price">
+
+                                    <span class="text16">5 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tour-card">
+                            <button class="tour-card__favourite favourite-btn">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                </svg>
+                            </button>
+                            <a href="" class="tour-card__img">
+                                <img src="img/popular-4.webp" alt="">
+                            </a>
+                            <div class="tour-card__content">
+                                <div class="tour-card__date">
+                                    <span class="text18 text16-tablet blue-text">17.06.2023, 24.06.2023, + 5 дат</span>
+                                </div>
+                                <a href="" class="tour-card__title">
+                                    <span class="text26 text24-tablet semi-bold-text">Мыс Пильво</span>
+                                </a>
+
+                            </div>
+                            <div class="tour-card__bottom">
+                                <div class="tour-card__info">
+                                    <div class="tour-card__duration">
+                                        <span class="text16">10 часов</span>
+                                    </div>
+                                    <div class="tour-card__type">
+                                        <span class="text16">Поход, джип тур, доступен <br> с кэшбеком</span>
+                                    </div>
+                                </div>
+                                <div class="tour-card__price">
+
+                                    <span class="text16">5 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tour-card">
+                            <button class="tour-card__favourite favourite-btn">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                </svg>
+                            </button>
+                            <a href="" class="tour-card__img">
+                                <img src="img/popular-5.webp" alt="">
+                            </a>
+                            <div class="tour-card__content">
+                                <div class="tour-card__date">
+                                    <span class="text18 text16-tablet blue-text">17.06.2023, 24.06.2023, + 8 дат</span>
+                                </div>
+                                <a href="" class="tour-card__title">
+                                    <span class="text26 text24-tablet semi-bold-text">Тайны и легенды древнего Алтая</span>
+                                </a>
+
+                            </div>
+                            <div class="tour-card__bottom">
+                                <div class="tour-card__info">
+                                    <div class="tour-card__duration">
+                                        <span class="text16">8 дней / 7 ночей</span>
+                                    </div>
+                                    <div class="tour-card__type">
+                                        <span class="text16">Поход, водный тур</span>
+                                    </div>
+                                </div>
+                                <div class="tour-card__price">
+
+                                    <span class="text16">61 400 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tour-card">
+                            <button class="tour-card__favourite favourite-btn">
+                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                </svg>
+                            </button>
+                            <a href="" class="tour-card__img">
+                                <img src="img/popular-6.webp" alt="">
+                            </a>
+                            <div class="tour-card__content">
+                                <div class="tour-card__date">
+                                    <span class="text18 text16-tablet blue-text">17.06.2023, 24.06.2023, + 4 дат</span>
+                                </div>
+                                <a href="" class="tour-card__title">
+                                    <span class="text26 text24-tablet semi-bold-text">Джип тур на мыс Слепиковского</span>
+                                </a>
+
+                            </div>
+                            <div class="tour-card__bottom">
+                                <div class="tour-card__info">
+                                    <div class="tour-card__duration">
+                                        <span class="text16">7 часов</span>
+                                    </div>
+                                    <div class="tour-card__type">
+                                        <span class="text16">Поход, джип тур</span>
+                                    </div>
+                                </div>
+                                <div class="tour-card__price">
+
+                                    <span class="text16">7 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="our-offers our-offers2">
+                <div class="our-offers__mask">
+                    <img src="img/mask3.svg" alt="">
+                </div>
+                <div class="our-offers2__inner">
+                    <div class="container">
+                        <div class="text46">
+                            Места
+                        </div>
+                        <div class="offers-slider slider">
+                            <div class="slider__wrap">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="offer-card">
+                                                <div class="offer-card__img m-backdrop">
+                                                    <img src="img/places-5.webp" alt="">
+                                                </div>
+                                                <div class="offer-card__text">
+                                                    <span class="text22">Маяк Анива</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="offer-card">
+                                                <div class="offer-card__img m-backdrop">
+                                                    <img src="img/places-6.webp" alt="">
+                                                </div>
+                                                <div class="offer-card__text">
+                                                    <span class="text22">Белые скалы</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="offer-card">
+                                                <div class="offer-card__img m-backdrop">
+                                                    <img src="img/places-7.webp" alt="">
+                                                </div>
+                                                <div class="offer-card__text">
+                                                    <span class="text22">Сивучи</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="offer-card">
+                                                <div class="offer-card__img m-backdrop">
+                                                    <img src="img/places-8.webp" alt="">
+                                                </div>
+                                                <div class="offer-card__text">
+                                                    <span class="text22">Вулкан Тятя</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="offer-card">
+                                                <div class="offer-card__img m-backdrop">
+                                                    <img src="img/places-8.webp" alt="">
+                                                </div>
+                                                <div class="offer-card__text">
+                                                    <span class="text22">Вулкан Тятя</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-nav">
+                                <div class="swiper-button swiper-button-prev">
+                                    <img src="img/prev.svg" alt="">
+                                </div>
+                                <div class="swiper-button swiper-button-next">
+                                    <img src="img/next.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews">
+                <div class="container">
+                    <div class="text46">
+                        Отзывы
+                    </div>
+
+                    <div class="reviews-slider slider">
+                        <div class="slider__wrap">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="" class="review-card">
+                                            <div class="review-card__text">
+                                                <p>Понравилось абсолютно всё! Наша тёплая, душевная компания.</p>
+                                                <p>Раньше я и не думал, что совершенно незнакомые люди за такое короткое время могут так подружиться и стань почти одной семьёй!</p>
+                                            </div>
+                                            <div class="review-card__info">
+                                                <div class="text20 semi-bold-text">
+                                                    Виктор Серпа
+                                                </div>
+                                                <div class="text16">
+                                                    тур по югу Сахалина, 2023
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="review-card">
+                                            <div class="review-card__text">
+                                                <p>Очень хороший и насыщенный тур. Интересные объекты и конечно же мастер классы. Столько разной и вкусной еды за одну неделю мы с семьёй никогда не ели.</p>
+                                                <p>Очень понравилась рыбалка, хоть рыбы поймали не много, но с погодой повезло, хорошо провели время с капитаном Женей.</p>
+                                            </div>
+                                            <div class="review-card__info">
+                                                <div class="text20 semi-bold-text">
+                                                    Наталья Бабчук
+                                                </div>
+                                                <div class="text16">
+                                                    Гастрономический тур, 2022
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="review-card">
+                                            <div class="review-card__text">
+                                                <p>Путешествие на маяк Анива стало яркой частью поездки на Сахалин. Гид Валерия интересно рассказала, сделала фото, сопровождала на всём пути, судоводители украсили наш тур внимательным отношением и пикником у костра на берегу. Было классно, рекомендую....</p>
+                                            </div>
+                                            <div class="review-card__info">
+                                                <div class="text20 semi-bold-text">
+                                                    Рита Маркушкина
+                                                </div>
+                                                <div class="text16">
+                                                    Экскурсия на мыс анива, 2022
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="feedback">
+                <div class="container">
+                    <div class="feedback__inner">
+                        <div class="feedback__content">
+                            <div class="feedback__title text46">
+                                Хотите провести
+                                <span class="red-text">незабываемый отдых</span>
+                                на краю земли?
+                            </div>
+                            <div class="feedback__desc">
+                                <div class="text18 text16-tablet">
+                                    Оставьте телефон или электронную почту, наш менеджер свяжется
+                                    с вами, чтобы подобрать лучший тур или экскурсию
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedback__form">
+                            <div class="feedback__form-fields">
+                                <fieldset class="fg fg--gray">
+                                    <input class="form-control" type="text" placeholder="Телефон">
+                                </fieldset>
+                                <fieldset class="fg fg--gray">
+                                    <input class="form-control" type="text" placeholder="Эл. почта">
+                                </fieldset>
+                            </div>
+                            <div class="m-check">
+                                <input checked type="checkbox">
+                                <label><span>Я соглашаюсь с <a href="">политикой конфиденциальности</a></span></label>
+                            </div>
+                            <button class="feedback__form-btn m-btn m-btn-yellow">
+                                <span>Оставить заявку</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <img src="img/footer.webp" alt="" class="footer__bg">
+
+            <div class="footer__inner">
+                <div class="container">
+                    <div class="footer__top">
+                        <div class="footer__info">
+                            <a href="" class="footer__logo">
+                                <img src="img/logo.webp" alt="">
+                            </a>
+                            <div class="footer__socials">
+                                <div class="text16">
+                                    Мы в <a href="" class="footer__socials-whatsapp">Вотсапе</a> ,
+                                    <a href="" class="footer__socials-tg">Телеграме</a> и <a href="" class="footer__socials-vk"> Вконтакте</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-contacts">
+                            <div class="footer-contacts__phones">
+                                <div class="footer-contacts__phone text22">
+                                    <a href="tel:+79147554033">+7 914 755-40-33</a>
+                                </div>
+                                <div class="footer-contacts__phone text22">
+                                    <a href="tel:84242254013">
+                                        8 (4242) 25-40-13
+                                    </a> ,
+                                    <a href="tel:84242254077">
+                                        25-40-77
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer-contacts__email text18">
+                                <a href="mailto:infopohodniki@gmail.com">
+                                    infopohodniki@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-nav">
+                            <a href="" class="footer-nav__link"><span>О нас</span></a>
+                            <a href="" class="footer-nav__link"><span>Фото и видео</span></a>
+                            <a href="" class="footer-nav__link"><span>Туры</span></a>
+                            <a href="" class="footer-nav__link"><span>Вопросы-ответы</span></a>
+                            <a href="" class="footer-nav__link"><span>Статьи</span></a>
+                            <a href="" class="footer-nav__link"><span>Контакты</span></a>
+                        </div>
+                    </div>
+
+                    <div class="footer__bottom">
+                        <div class="footer__c">
+                            <span class="text16">© 2023, Друзья–походники</span>
+                        </div>
+                        <div class="footer__num">
+                            <span class="text16">
+                    Номер в федеральном реестре
+                туроператоров РТО019748
+                </span>
+                        </div>
+                        <a href="" class="footer__link"><span class="text16">Оплата</span></a>
+                        <a href="" class="footer__link"><span class="text16">Политика конфиденциальности</span></a>
+                        <div class="footer__by">
+                            <div class="text16">
+                                Сделано <a href="">в Гигоном</a>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+    <script src="libs/js/air-datepicker.js"></script>
+    <script src="libs/js/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

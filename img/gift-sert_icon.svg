@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>172472_gift_present_icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Друзья-походники-главная" transform="translate(-1119.000000, -626.000000)">
+            <g id="172472_gift_present_icon" transform="translate(1148.000000, 655.000000) rotate(-10.000000) translate(-1148.000000, -655.000000) translate(1123.000000, 630.000000)">
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" points="20 23 2 23 2 14 48 14 48 23 30 23"></polyline>
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" x="20" y="14" width="10" height="34"></rect>
+                <rect id="Rectangle" x="0" y="0" width="50" height="50"></rect>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" points="20 23 4 23 4 48 46 48 46 23 30 23"></polyline>
+                <path d="M25,13 C25,13 21.418,13 17,13 C12.582,13 8,10.419 8,6 C8,4.172 8.878,2 12.319,2 C19.236,2 19.363,13 25,13 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M25,13 C25,13 28.582,13 33,13 C37.418,13 42,10.419 42,6 C42,4.172 41.122,2 37.681,2 C30.764,2 30.637,13 25,13 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
