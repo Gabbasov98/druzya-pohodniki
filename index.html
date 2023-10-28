@@ -68,10 +68,10 @@
             <section class="main m-backdrop" style="background-image: url(img/main-hero.webp);">
                 <div class="container">
                     <div class="main__inner">
-                        <div class="main__title text48 text24-tablet">
+                        <h1 class="main__title text48 text24-tablet">
                             Незабываемые путешествия <br>
                             по Сахалину и Курилам — выбирайте свое приключение
-                        </div>
+                        </h1>
 
                         <div class="main__bottom">
                             <form class="main-search">
@@ -92,7 +92,7 @@
                                     </select>
                                 </fieldset>
                                 <fieldset class="fg main-search__date">
-                                    <input type="text" placeholder="Даты" class="form-control date-input">
+                                    <input type="text" placeholder="Даты" class="form-control date-input _date-picker">
                                 </fieldset>
                                 <button class="main-search__btn m-btn m-btn-yellow">
                                     <span>Найти</span>
@@ -116,9 +116,9 @@
             <section class="tours">
                 <div class="container">
                     <div class="tours__top">
-                        <div class="text46">
+                        <h2 class="text46">
                             Ближайшие туры
-                        </div>
+                        </h2>
                         <div class="text18">
                             Не откладывай на завтра то, что можешь сделать сегодня!
                         </div>
@@ -158,10 +158,10 @@
                                                         <span class="text16">Поход, водный тур, доступен с кэшбеком</span>
                                                     </div>
                                                 </div>
-                                                <div class="tour-card__price">
+                                                <a href="" class="tour-card__price">
 
                                                     <span class="text16">142 000 ₽</span>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -197,10 +197,10 @@
                                                         <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
                                                     </div>
                                                 </div>
-                                                <div class="tour-card__price">
+                                                <a href="" class="tour-card__price">
 
                                                     <span class="text16">3 500 ₽</span>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -236,10 +236,49 @@
                                                         <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
                                                     </div>
                                                 </div>
-                                                <div class="tour-card__price">
+                                                <a href="" class="tour-card__price">
 
                                                     <span class="text16">3 500 ₽</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour2.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">2.06.2023</span>
                                                 </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Мыс Грина</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Умиротворенная прогулка по побережью, исследование тунелей и бокал вина на берегу Анивского залива.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">1 день</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="tour-card__price">
+
+                                                    <span class="text16">3 500 ₽</span>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -255,15 +294,16 @@
                                 <img src="img/next.svg" alt="">
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
 
             <section class="our-counts" style="background-image: url(img/main-numbers.jpg);">
                 <div class="container">
-                    <div class="text46">
+                    <h3 class="text46">
                         Мы в цифрах
-                    </div>
+                    </h3>
 
                     <div class="our-counts__items">
                         <div class="count-item">
@@ -308,9 +348,9 @@
 
             <section class="our-offers">
                 <div class="container">
-                    <div class="text46">
+                    <h4 class="text46">
                         Мы предлагаем
-                    </div>
+                    </h4>
                     <div class="offers-slider slider">
                         <div class="slider__wrap">
                             <div class="swiper-container">
@@ -394,9 +434,9 @@
                 <div class="container">
                     <div class="popular-tours__top">
                         <div class="popular-tours__text">
-                            <div class="text46">
+                            <h5 class="text46">
                                 Популярные туры и экскурсии
-                            </div>
+                            </h5>
                             <div class="text18">
                                 Погрузитесь в неизведанный мир. Величие первозданной природы. Причудливость пейзажей. Дыхание вулканов на необитаемых островах. Тихое умиротворение океана. Наши путешествия изменит вас навсегда.
                             </div>
@@ -433,10 +473,10 @@
                                         <span class="text16">Поход, водный тур, доступен <br> с кэшбеком</span>
                                     </div>
                                 </div>
-                                <div class="tour-card__price">
+                                <a href="" class="tour-card__price">
 
                                     <span class="text16">142 000 ₽</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
@@ -467,12 +507,12 @@
                                         <span class="text16">Поход, экстрим тур, доступен <br> с кэшбеком</span>
                                     </div>
                                 </div>
-                                <div class="tour-card__price">
+                                <a href="" class="tour-card__price">
 
                                     <span class="text13">64 000 ₽</span>
 
                                     <span class="text16">59 500 ₽</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
@@ -503,10 +543,10 @@
                                         <span class="text16">Водный тур, доступен <br> с кэшбеком</span>
                                     </div>
                                 </div>
-                                <div class="tour-card__price">
+                                <a href="" class="tour-card__price">
 
                                     <span class="text16">5 000 ₽</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
@@ -537,10 +577,10 @@
                                         <span class="text16">Поход, джип тур, доступен <br> с кэшбеком</span>
                                     </div>
                                 </div>
-                                <div class="tour-card__price">
+                                <a href="" class="tour-card__price">
 
                                     <span class="text16">5 000 ₽</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
@@ -571,10 +611,10 @@
                                         <span class="text16">Поход, водный тур</span>
                                     </div>
                                 </div>
-                                <div class="tour-card__price">
+                                <a href="" class="tour-card__price">
 
                                     <span class="text16">61 400 ₽</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
@@ -605,10 +645,10 @@
                                         <span class="text16">Поход, джип тур</span>
                                     </div>
                                 </div>
-                                <div class="tour-card__price">
+                                <a href="" class="tour-card__price">
 
                                     <span class="text16">7 000 ₽</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
@@ -622,9 +662,9 @@
                 </div>
                 <div class="our-offers2__inner">
                     <div class="container">
-                        <div class="text46">
+                        <h6 class="text46">
                             Места
-                        </div>
+                        </h6>
                         <div class="offers-slider slider">
                             <div class="slider__wrap">
                                 <div class="swiper-container">
@@ -881,6 +921,7 @@
     <script src="libs/js/air-datepicker.js"></script>
     <script src="libs/js/swiper-bundle.min.js"></script>
     <script src="libs/js/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/native-daterangepicker@0.0.12/dist/index.min.js"></script>
     <script src="js/main.min.js"></script>
 
 </body>

@@ -65,12 +65,13 @@
         </header>
         <main class="content">
 
-            <section class="tour m-backdrop" style="background-image: url(img/tour4.jpg);">
+            <section class="tour m-backdrop _anchor" style="background-image: url(img/tour4.jpg);">
+                <span id="img" class="_anchor__item"></span>
                 <div class="container">
                     <div class="tour__inner">
                         <div class="tour__text">
                             <div class="text18">Туры и экскурсии</div>
-                            <div class="tour__title text46">Кунашир и Шикотан</div>
+                            <h1 class="tour__title text46">Кунашир и Шикотан</h1>
                             <div class="tour__date">
                                 <span class="text18">17.02.2023 – 24.02.2023, + 8 дат</span>
                             </div>
@@ -89,13 +90,13 @@
             <section class="tour-nav">
                 <div class="container">
                     <div class="tour-nav__inner">
-                        <a href="" class="tour-nav__link"><span>Фотографии</span></a>
-                        <a href="" class="tour-nav__link"><span>Характеристики</span></a>
-                        <a href="" class="tour-nav__link"><span>Описание</span></a>
-                        <a href="" class="tour-nav__link"><span>Программа</span></a>
-                        <a href="" class="tour-nav__link"><span>Видео</span></a>
-                        <a href="" class="tour-nav__link"><span>Проживание</span></a>
-                        <a href="" class="tour-nav__link"><span>Отзывы</span></a>
+                        <a href="#img" class="tour-nav__link"><span>Фотографии</span></a>
+                        <a href="#props" class="tour-nav__link"><span>Характеристики</span></a>
+                        <a href="#desc" class="tour-nav__link"><span>Описание</span></a>
+                        <a href="#program" class="tour-nav__link"><span>Программа</span></a>
+                        <a href="#video" class="tour-nav__link"><span>Видео</span></a>
+                        <a href="#living" class="tour-nav__link"><span>Проживание</span></a>
+                        <a href="#reviews" class="tour-nav__link"><span>Отзывы</span></a>
                     </div>
                 </div>
             </section>
@@ -104,7 +105,8 @@
                 <div class="container">
                     <div class="tour-detail__inner">
                         <div class="tour-detail__content">
-                            <div class="tour-props">
+                            <div class="tour-props _tour-desc _anchor">
+                                <span id="props" class="_anchor__item"></span>
                                 <div class="tour-props__items">
                                     <div class="tour-props__item">
                                         <div class="text22 text18-tablet semi-bold-text">
@@ -171,12 +173,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="tour-props__btn more-btn">
+                                <button class="_tour-desc__btn tour-props__btn more-btn">
                                     <img src="img/arrow-down.svg" alt="">
                                 </button>
                             </div>
 
-                            <div class="tour-desc">
+                            <div class="tour-desc _tour-desc _anchor">
+                                <span id="desc" class="_anchor__item"></span>
                                 <div class="text">
                                     <p>Поход, водный тур, доступен с кэшбеком</p>
                                     <p>Дальний Восток манит и впечатляет своей труднодоступностью, красивейшими видами и причудливыми рельефами. Поездка на Курильские острова - это возможность окунуться в наш, российский, Тихий океан, подняться на настоящие действующие, точнее, спящие вулканы, повстречаться с медведем (а если говорить о Хабаровском и Приморском краях — даже с тигром и леопардом), увидеть настоящую Японию с другого берега без всякой оптики.</p>
@@ -184,7 +187,7 @@
                                     <p>Эта поездка для романтиков, искателей приключений и любителей впечатляющих пейзажей, тех, кому не страшны далекие расстояния, первозданная природа и сложность рельефа.</p>
                                     <p>Эта поездка для романтиков, искателей приключений и любителей впечатляющих пейзажей, тех, кому не страшны далекие расстояния, первозданная природа и сложность рельефа.</p>
                                 </div>
-                                <button class="tour-desc__btn arrow-btn">
+                                <button class="_tour-desc__btn tour-desc__btn arrow-btn">
                                     <span>развернуть описание</span>
                                     <svg width="14" height="8" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
                                         <path d="m6.545 7 5.545-6M6.545 7 1 1" stroke="#689DC5" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" />
@@ -192,7 +195,8 @@
                                 </button>
                             </div>
 
-                            <div class="tour-program">
+                            <div class="tour-program _anchor">
+                                <span id="program" class="_anchor__item"></span>
                                 <div class="text26 bold-text">
                                     Программа тура
                                 </div>
@@ -212,24 +216,31 @@
                                         <div class="program-card__hidden slideToggle-block__hidden">
                                             <div class="program-card__wrap slideToggle-block__wrap body-text2">
                                                 <div class="gallery">
-                                                    <div class="gallery-item">
+                                                    <div class="gallery-item ">
                                                         <div class="gallery-item__img">
                                                             <img src="img/gallery.webp" alt="">
                                                         </div>
+
                                                     </div>
-                                                    <div class="gallery-item">
+
+                                                    <div class="gallery-item ">
                                                         <div class="gallery-item__img">
                                                             <img src="img/gallery.webp" alt="">
                                                         </div>
+
                                                     </div>
-                                                    <div class="gallery-item">
+
+                                                    <div class="gallery-item ">
                                                         <div class="gallery-item__img">
                                                             <img src="img/gallery.webp" alt="">
                                                         </div>
+
                                                         <div class="gallery-item__count">
                                                             <div class="text26">+2</div>
                                                         </div>
+
                                                     </div>
+
                                                 </div>
 
                                                 <div class="program-card__text text">
@@ -247,8 +258,421 @@
                                                     </div>
                                                     <div class="visit-places__items">
                                                         <div class="place-card">
-                                                            <div class="place-card__img">
+                                                            <div class="place-card__img m-backdrop">
                                                                 <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">Кунашир</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">
+                                                                    Чертов палец
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Второй день. КУНАШИР. Вулкан Менделеева
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="gallery">
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                        <div class="gallery-item__count">
+                                                            <div class="text26">+2</div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="program-card__text text">
+                                                    <p>Первый день. КУНАШИР. Чертов палец. Морское побережье</p>
+                                                    <p>Прилет самолетом в аэропорт Менделеево о.Кунашир.</p>
+                                                    <p>Трансфер в п.Южно-Курильск на автомашинах (около 30 км), размещение в гостинице .</p>
+                                                    <p>Ужин.</p>
+                                                    <p>Вечером обзорная экскурсия на берег Тихого океана к мысу «Чертов палец».</p>
+                                                    <p>Возвращение в гостиницу.</p>
+                                                </div>
+
+                                                <div class="visit-places">
+                                                    <div class="text18 bold-text">
+                                                        Вы посетите
+                                                    </div>
+                                                    <div class="visit-places__items">
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">Кунашир</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">
+                                                                    Чертов палец
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Третий день. КУНАШИР. Мыс Столбчатый и Эко-тропа
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="gallery">
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                        <div class="gallery-item__count">
+                                                            <div class="text26">+2</div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="program-card__text text">
+                                                    <p>Первый день. КУНАШИР. Чертов палец. Морское побережье</p>
+                                                    <p>Прилет самолетом в аэропорт Менделеево о.Кунашир.</p>
+                                                    <p>Трансфер в п.Южно-Курильск на автомашинах (около 30 км), размещение в гостинице .</p>
+                                                    <p>Ужин.</p>
+                                                    <p>Вечером обзорная экскурсия на берег Тихого океана к мысу «Чертов палец».</p>
+                                                    <p>Возвращение в гостиницу.</p>
+                                                </div>
+
+                                                <div class="visit-places">
+                                                    <div class="text18 bold-text">
+                                                        Вы посетите
+                                                    </div>
+                                                    <div class="visit-places__items">
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">Кунашир</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">
+                                                                    Чертов палец
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Четвертый день. КУНАШИР. Кальдера вулкана Головнина
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="gallery">
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                        <div class="gallery-item__count">
+                                                            <div class="text26">+2</div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="program-card__text text">
+                                                    <p>Первый день. КУНАШИР. Чертов палец. Морское побережье</p>
+                                                    <p>Прилет самолетом в аэропорт Менделеево о.Кунашир.</p>
+                                                    <p>Трансфер в п.Южно-Курильск на автомашинах (около 30 км), размещение в гостинице .</p>
+                                                    <p>Ужин.</p>
+                                                    <p>Вечером обзорная экскурсия на берег Тихого океана к мысу «Чертов палец».</p>
+                                                    <p>Возвращение в гостиницу.</p>
+                                                </div>
+
+                                                <div class="visit-places">
+                                                    <div class="text18 bold-text">
+                                                        Вы посетите
+                                                    </div>
+                                                    <div class="visit-places__items">
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">Кунашир</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">
+                                                                    Чертов палец
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Пятый день. ШИКОТАН. Бухта Хромова. Мыс Трезубец
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="gallery">
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                        <div class="gallery-item__count">
+                                                            <div class="text26">+2</div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="program-card__text text">
+                                                    <p>Первый день. КУНАШИР. Чертов палец. Морское побережье</p>
+                                                    <p>Прилет самолетом в аэропорт Менделеево о.Кунашир.</p>
+                                                    <p>Трансфер в п.Южно-Курильск на автомашинах (около 30 км), размещение в гостинице .</p>
+                                                    <p>Ужин.</p>
+                                                    <p>Вечером обзорная экскурсия на берег Тихого океана к мысу «Чертов палец».</p>
+                                                    <p>Возвращение в гостиницу.</p>
+                                                </div>
+
+                                                <div class="visit-places">
+                                                    <div class="text18 bold-text">
+                                                        Вы посетите
+                                                    </div>
+                                                    <div class="visit-places__items">
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">Кунашир</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">
+                                                                    Чертов палец
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Шестой день. ШИКОТАН. Бухта Снежкова
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="gallery">
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="gallery-item ">
+                                                        <div class="gallery-item__img">
+                                                            <img src="img/gallery.webp" alt="">
+                                                        </div>
+
+                                                        <div class="gallery-item__count">
+                                                            <div class="text26">+2</div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="program-card__text text">
+                                                    <p>Первый день. КУНАШИР. Чертов палец. Морское побережье</p>
+                                                    <p>Прилет самолетом в аэропорт Менделеево о.Кунашир.</p>
+                                                    <p>Трансфер в п.Южно-Курильск на автомашинах (около 30 км), размещение в гостинице .</p>
+                                                    <p>Ужин.</p>
+                                                    <p>Вечером обзорная экскурсия на берег Тихого океана к мысу «Чертов палец».</p>
+                                                    <p>Возвращение в гостиницу.</p>
+                                                </div>
+
+                                                <div class="visit-places">
+                                                    <div class="text18 bold-text">
+                                                        Вы посетите
+                                                    </div>
+                                                    <div class="visit-places__items">
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">Кунашир</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="place-card">
+                                                            <div class="place-card__img m-backdrop">
+                                                                <img src="img/gallery.webp" alt="">
+                                                            </div>
+                                                            <div class="place-card__text">
+                                                                <div class="text16 semi-bold-text">
+                                                                    Чертов палец
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -259,16 +683,538 @@
 
                                 </div>
                             </div>
+
+                            <div class="tour-video _anchor">
+                                <span id="video" class="_anchor__item"></span>
+                                <a href="videos/Countdown7.mp4" data-fancybox class="video">
+                                    <img src="img/video.jpg" alt="" class="video__img">
+                                    <span class="video__play">
+                                        <img src="img/play.svg" alt="">
+                                    </span>
+                                </a>
+                                <div class="text22 text18-tablet semi-bold-text">
+                                    Кунашир и Шикотан – жемчужины Курильской гряды
+                                </div>
+                            </div>
+
+                            <div class="tour-contain">
+                                <div class="tour-contain__group">
+                                    <div class="tour-contain__title">
+                                        <div class="text26 semi-bold-text">
+                                            Что включено
+                                        </div>
+                                    </div>
+                                    <ul class="tour-contain__list">
+                                        <li><span>Перелет Южно-Сахалинск – Южно-Курильск переход на теплоходе Южно-Курильск-Корсаков</span></li>
+                                        <li><span>Трансфер от аэропорта и обратно в Южно-Курильске, трансфер в портах Южно-Курильск и Малокурильское</span></li>
+                                        <li><span>Проживание в гостиницах</span></li>
+                                        <li><span>Экскурсии по программе</span></li>
+                                        <li><span>Трехразовое питание, в т.ч. обеды на маршрутах</span></li>
+                                        <li><span>Транспортное сопровождение</span></li>
+                                        <li><span>Оформление пропусков в заповедник «Курильский»</span></li>
+                                        <li><span>Оформление пропусков в погранзону на о. Кунашир и Шикотан</span></li>
+                                        <li><span>Сопровождение гида</span></li>
+                                        <li><span>Страхование</span></li>
+                                    </ul>
+                                </div>
+                                <div class="tour-contain__group _type2">
+                                    <div class="tour-contain__title">
+                                        <div class="text26 semi-bold-text">
+                                            Что <br>
+                                            не включено
+                                        </div>
+                                    </div>
+                                    <ul class="tour-contain__list">
+                                        <li><span>Питание на теплоходе</span></li>
+                                        <li><span>Оплата постельного белья на теплоходе</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tour-gallery">
+                                <div class="text26 semi-bold-text">
+                                    Галерея тура
+                                </div>
+                                <div class="gallery">
+                                    <div class="gallery-item _big">
+                                        <div class="gallery-item__img">
+                                            <img src="img/gallery.webp" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="gallery-item ">
+                                        <div class="gallery-item__img">
+                                            <img src="img/gallery.webp" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="gallery-item ">
+                                        <div class="gallery-item__img">
+                                            <img src="img/gallery.webp" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="gallery-item ">
+                                        <div class="gallery-item__img">
+                                            <img src="img/gallery.webp" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="gallery-item ">
+                                        <div class="gallery-item__img">
+                                            <img src="img/gallery.webp" alt="">
+                                        </div>
+
+                                        <div class="gallery-item__count">
+                                            <div class="text26">+32</div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="living _anchor">
+                                <span id="living" class="_anchor__item"></span>
+                                <div class="text26 semi-bold-text">
+                                    Проживание
+                                </div>
+                                <div class="living__wrap">
+                                    <div class="living__img">
+                                        <img src="img/living.jpg" alt="">
+                                    </div>
+                                    <div class="living__content">
+                                        <div class="living__title text22 text18-tablet semi-bold-text">
+                                            Двухместное размещение в гостинице Асберг (номер TWIN или DOUBLE)
+                                        </div>
+                                        <div class="living__stars">
+                                            <img src="img/star.svg" alt="">
+                                            <img src="img/star.svg" alt="">
+                                        </div>
+                                        <div class="living__desc">
+                                            <div class="text18">
+                                                Рейтинг 5,4 на <a href="">Яндекс.Путешествия</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="should-know">
+                                <div class="text26 semi-bold-text">
+                                    Важно знать
+                                </div>
+                                <div class="tour-program__items">
+                                    <div class="qa-card program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Как забронировать тур?
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="program-card__text text">
+                                                    <p>Еще до начала путешествия следует перейти на более легкое питание и отказаться от слишком жирной, острой и кислой пищи. Не стоит переедать и пить много жидкости перед посадкой в транспортное средство. Природными средствами, которые помогают справиться с болезнью движения, являются мята и имбирь. Мята успокаивает желудок и уменьшает рвотные рефлексы. Иногда при тошноте помогает потребление нежирных крекеров с солью.</p>
+                                                    <p>При возникновении морской болезни можно принять лекарства, помогающие справиться с тошнотой и рвотой. Среди них наиболее известны: Бонин, Аква-море, Драмина, гомеопатический препарат Коккулин и др.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="qa-card program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Если встретим медведя?
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="program-card__text text">
+                                                    <p>Еще до начала путешествия следует перейти на более легкое питание и отказаться от слишком жирной, острой и кислой пищи. Не стоит переедать и пить много жидкости перед посадкой в транспортное средство. Природными средствами, которые помогают справиться с болезнью движения, являются мята и имбирь. Мята успокаивает желудок и уменьшает рвотные рефлексы. Иногда при тошноте помогает потребление нежирных крекеров с солью.</p>
+                                                    <p>При возникновении морской болезни можно принять лекарства, помогающие справиться с тошнотой и рвотой. Среди них наиболее известны: Бонин, Аква-море, Драмина, гомеопатический препарат Коккулин и др.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="qa-card program-card slideToggle-block">
+                                        <div class="program-card__show slideToggle-block__show">
+                                            <div class="program-card__title">
+                                                <div class="text18 bold-text">
+                                                    Как подготовиться, чтобы облегчить морскую качку?
+                                                </div>
+                                            </div>
+                                            <button class="program-card__btn m-btn m-btn-blue">
+                                                <img src="img/arrow-down2.svg" alt="">
+                                            </button>
+                                        </div>
+
+                                        <div class="program-card__hidden slideToggle-block__hidden">
+                                            <div class="program-card__wrap slideToggle-block__wrap body-text2">
+                                                <div class="program-card__text text">
+                                                    <p>Еще до начала путешествия следует перейти на более легкое питание и отказаться от слишком жирной, острой и кислой пищи. Не стоит переедать и пить много жидкости перед посадкой в транспортное средство. Природными средствами, которые помогают справиться с болезнью движения, являются мята и имбирь. Мята успокаивает желудок и уменьшает рвотные рефлексы. Иногда при тошноте помогает потребление нежирных крекеров с солью.</p>
+                                                    <p>При возникновении морской болезни можно принять лекарства, помогающие справиться с тошнотой и рвотой. Среди них наиболее известны: Бонин, Аква-море, Драмина, гомеопатический препарат Коккулин и др.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tour-reviews _tour-desc _anchor">
+                                <span id="reviews" class="_anchor__item"></span>
+                                <div class="tour-reviews__top">
+                                    <div class="text26 semi-bold-text">
+                                        Отзывы по туру
+                                    </div>
+                                    <button class="tour-reviews__btn m-btn m-btn-yellow">
+                                        <span>Оставить отзыв о туре</span>
+                                    </button>
+                                </div>
+                                <div class="tour-reviews__items">
+                                    <a href="" class="review-card review-card2">
+                                        <div class="review-card__text">
+                                            <p>Понравилось абсолютно всё! Наша тёплая, душевная компания.</p>
+                                            <p>Раньше я и не думал, что совершенно незнакомые люди за такое короткое время могут так подружиться и стань почти одной семьёй!</p>
+                                        </div>
+                                        <div class="review-card__info">
+                                            <div class="text22 semi-bold-text">
+                                                Виктор Серпа
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="review-card review-card2">
+                                        <div class="review-card__text">
+                                            <p>Очень хороший и насыщенный тур. Интересные объекты и конечно же мастер классы. Столько разной и вкусной еды за одну неделю мы с семьёй никогда не ели.</p>
+                                            <p>Очень понравилась рыбалка, хоть рыбы поймали не много, но с погодой повезло, хорошо провели время с капитаном Женей.</p>
+                                        </div>
+                                        <div class="review-card__info">
+                                            <div class="text22 semi-bold-text">
+                                                Наталья Бабчук
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="review-card review-card2">
+                                        <div class="review-card__text">
+                                            <p>Очень хороший и насыщенный тур. Интересные объекты и конечно же мастер классы. Столько разной и вкусной еды за одну неделю мы с семьёй никогда не ели.</p>
+                                            <p>Очень понравилась рыбалка, хоть рыбы поймали не много, но с погодой повезло, хорошо провели время с капитаном Женей.</p>
+                                        </div>
+                                        <div class="review-card__info">
+                                            <div class="text22 semi-bold-text">
+                                                Наталья Бабчук
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <button class="_tour-desc__btn tour-reviews__btn more-btn">
+                                    <img src="img/arrow-down.svg" alt="">
+                                </button>
+                            </div>
+
+                            <div class="articles">
+                                <div class="text26 semi-bold-text">
+                                    Полезные статьи
+                                </div>
+                                <div class="articles__items grid-column2">
+                                    <a href="" class="article-card">
+                                        <div class="article-card__img">
+                                            <img src="img/article-1.webp" alt="">
+                                        </div>
+                                        <div class="text22 semi-bold-text">
+                                            Таинственные колоны мыса Столбчатый
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="article-card">
+                                        <div class="article-card__img">
+                                            <img src="img/article-2.webp" alt="">
+                                        </div>
+                                        <div class="text22 semi-bold-text">
+                                            Горячие источники Курильской гряды
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="article-card">
+                                        <div class="article-card__img">
+                                            <img src="img/article-3.webp" alt="">
+                                        </div>
+                                        <div class="text22 semi-bold-text">
+                                            Ипритка – опасная красота
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+
                         </div>
                         <div class="tour-detail__sidebar">
+                            <div class="order">
+                                <div class="order__top">
+                                    <div class="text26 semi-bold-text">
+                                        142 000 ₽
+                                    </div>
+                                    <div class="text18 bold-text">
+                                        8 дней / 7 ночей
+                                    </div>
+                                </div>
+                                <div class="order__fields">
+                                    <fieldset class="fg">
+                                        <input type="text" placeholder="Даты" class="form-control date-input _date-picker">
+                                    </fieldset>
+                                    <div class="order__calc">
+                                        <div class="text16">Количество туристов</div>
+                                        <div class='cartcalc'>
+                                            <button class='ccalc-minus _disabled'>
+                                                <img src="img/icon-minus.svg" alt="">
+                                            </button>
+                                            <input type='text' value='1'>
+                                            <button class='ccalc-plus'>
+                                                <img src="img/icon-plus.svg" alt="">
+                                            </button>
+                                        </div>
+                                    </div>
 
+                                </div>
+                                <div class="order__count">
+                                    <div class="text16 semi-bold-text">Осталось 10 мест</div>
+                                </div>
+
+                                <div class="order__additional">
+                                    <div class="text22 semi-bold-text">
+                                        Добавить к заказу
+                                    </div>
+                                    <div class="order__additional-items">
+                                        <div class="m-check bold-text">
+                                            <input checked type="checkbox">
+                                            <label><span>Одноместное размещение + 25 320 ₽</span></label>
+                                        </div>
+                                        <div class="m-check">
+                                            <input type="checkbox">
+                                            <label><span>Завтраки и обеды + 9 540 ₽</span></label>
+                                        </div>
+                                        <div class="m-check">
+                                            <input type="checkbox">
+                                            <label><span>Трансфер из аэропорта и обратно <br> + 1 500 ₽</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="order__nav">
+                                    <a href="" class="order__whatsapp m-btn m-btn-green">
+                                        <img src="img/whatsapp.svg" alt="">
+                                        <span>Задать вопрос по туру в ватсапп</span>
+                                    </a>
+                                    <button class="m-btn m-btn-yellow">
+                                        <span>В корзину</span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+
+            <section class="tours-collection">
+                <div class="container">
+                    <div class="text26 semi-bold-text">
+                        Избранные туры и экскурсии
+                    </div>
+                    <div class="tours-slider _type2 slider">
+                        <div class="slider__wrap">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">17.06.2023 – 24.06.2023</span>
+                                                </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Таинственные острова</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Яркий топовый совмещенный тур по Сахалину и Итурупу. Дикие пляжи, свежайшие морепродукты и горячие источники ждут вас.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">8 дней / 7 ночей</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, водный тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="tour-card__price">
+
+                                                    <span class="text16">142 000 ₽</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour2.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">2.06.2023</span>
+                                                </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Мыс Грина</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Умиротворенная прогулка по побережью, исследование тунелей и бокал вина на берегу Анивского залива.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">1 день</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="tour-card__price">
+
+                                                    <span class="text16">3 500 ₽</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour2.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">2.06.2023</span>
+                                                </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Мыс Грина</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Умиротворенная прогулка по побережью, исследование тунелей и бокал вина на берегу Анивского залива.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">1 день</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="tour-card__price">
+
+                                                    <span class="text16">3 500 ₽</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tour-card">
+                                            <button class="tour-card__favourite favourite-btn">
+                                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
+                                                </svg>
+                                            </button>
+                                            <a href="" class="tour-card__img">
+                                                <img src="img/tour2.webp" alt="">
+                                            </a>
+                                            <div class="tour-card__content">
+                                                <div class="tour-card__date">
+                                                    <span class="text18 text16-tablet blue-text">2.06.2023</span>
+                                                </div>
+                                                <a href="" class="tour-card__title">
+                                                    <span class="text26 text24-tablet semi-bold-text">Мыс Грина</span>
+                                                </a>
+
+                                                <div class="tour-card__desc">
+                                                    <div class="text18 text16-tablet">Умиротворенная прогулка по побережью, исследование тунелей и бокал вина на берегу Анивского залива.</div>
+                                                </div>
+                                            </div>
+                                            <div class="tour-card__bottom">
+                                                <div class="tour-card__info">
+                                                    <div class="tour-card__duration">
+                                                        <span class="text16">1 день</span>
+                                                    </div>
+                                                    <div class="tour-card__type">
+                                                        <span class="text16">Поход, джип-тур, доступен с кэшбеком</span>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="tour-card__price">
+
+                                                    <span class="text16">3 500 ₽</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-nav">
+                            <div class="swiper-button swiper-button-prev">
+                                <img src="img/prev.svg" alt="">
+                            </div>
+                            <div class="swiper-button swiper-button-next">
+                                <img src="img/next.svg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
         </main>
-        <footer class="footer">
+        <footer class="footer _gray-footer">
             <img src="img/footer.webp" alt="" class="footer__bg">
 
             <div class="footer__inner">
@@ -347,6 +1293,7 @@
     <script src="libs/js/air-datepicker.js"></script>
     <script src="libs/js/swiper-bundle.min.js"></script>
     <script src="libs/js/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/native-daterangepicker@0.0.12/dist/index.min.js"></script>
     <script src="js/main.min.js"></script>
 
 </body>
