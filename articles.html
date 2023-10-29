@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="libs/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="libs/css/fancybox.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Туры</title>
+    <title>Статьи</title>
 </head>
 
 
-<body class="m-page _show-filter1">
+<body class="m-page">
     <div class="wrapper">
         <header class="header">
             <div class="container">
@@ -68,390 +68,264 @@
             <section class="page-top2">
                 <div class="container">
                     <div class="page-top2__title text46">
-                        Туры и экскурсии
+                        Статьи
                     </div>
-
-                    <button class="filter__show-btn _toggle-filter">
-                        <span>Фильтры</span>
-                    </button>
-
-                    <div class="filter">
-                        <div class="filter__top">
-                            <div class="text18 semi-bold-text">
-                                Фильтры
-                            </div>
-                            <button class="filter__close _toggle-filter">
-                                <img src="img/icon-close.svg" alt="">
-                            </button>
-                        </div>
-                        <div class="filter__items">
-                            <div class="filter-item _sort _radios">
-                                <div class="filter-item__title">
-                                    Сортировать по
-                                </div>
-                                <div class="filter-item__toggle">
-                                    <img src="img/icon-sort.svg" alt="" class="filter-item__icon">
-                                    <span class="filter-item__current text16">
-                                        Ближайшие
-                                    </span>
-                                </div>
-                                <div class="filter-item__dropdown">
-                                    <div class="filter-item__checks">
-                                        <div class="m-check">
-                                            <input checked type="radio" name="sort" value="Ближайшие">
-                                            <label><span>Ближайшие</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="sort" value="По возрастанию цены">
-                                            <label><span>По возрастанию цены</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="sort" value="По убыванию цены">
-                                            <label><span>По убыванию цены</span></label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="filter-item _radios">
-                                <div class="filter-item__title">
-                                    Сортировать по
-                                </div>
-                                <div class="filter-item__toggle">
-                                    <span class="filter-item__current text16">
-                                        Туры, экскурсии
-                                    </span>
-                                </div>
-                                <div class="filter-item__dropdown">
-                                    <div class="filter-item__checks">
-                                        <div class="m-check">
-                                            <input checked type="radio" name="type" value="Туры, экскурсии">
-                                            <label><span>Туры, экскурсии</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="type" value="Туры">
-                                            <label><span>Туры</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="type" value="Экскурсии">
-                                            <label><span>Экскурсии</span></label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="filter-item _radios">
-                                <div class="filter-item__title">
-                                    Категория
-                                </div>
-                                <div class="filter-item__toggle">
-                                    <span class="filter-item__current text16">
-                                        Все категории
-                                    </span>
-                                </div>
-                                <div class="filter-item__dropdown">
-                                    <div class="filter-item__checks">
-                                        <div class="m-check">
-                                            <input checked type="radio" name="category" value="Все категории">
-                                            <label><span>Все категории</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="category" value="Пешие туры">
-                                            <label><span>Пешие туры</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="category" value="Хикинг">
-                                            <label><span>Хикинг</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="category" value="Водный тур">
-                                            <label><span>Водный тур</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="category" value="Джип тур">
-                                            <label><span>Джип тур</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="category" value="Гастротуризм">
-                                            <label><span>Гастротуризм</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="category" value="Этно-туризм">
-                                            <label><span>Этно-туризм</span></label>
-                                        </div>
-                                        <div class="m-check">
-                                            <input type="radio" name="category" value="Экспедиции">
-                                            <label><span>Экспедиции</span></label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="filter-item">
-                                <div class="filter-item__title">
-                                    Даты
-                                </div>
-                                <div class="filter-item__toggle">
-                                    <span class="filter-item__current text16">
-                                        Даты
-                                    </span>
-                                </div>
-                                <div class="filter-item__dropdown">
-                                    <div class="filter-item__range">
-                                        <fieldset class="fg">
-                                            <span class="filter-item__range-title">c</span>
-                                            <input class="form-control _date-picker" type="text">
-                                        </fieldset>
-                                        <fieldset class="fg">
-                                            <span class="filter-item__range-title">по</span>
-                                            <input class="form-control _date-picker" type="text">
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="filter-item">
-                                <div class="filter-item__title">
-                                    Цена
-                                </div>
-                                <div class="filter-item__toggle">
-                                    <span class="filter-item__current text16">
-                                        Цена
-                                    </span>
-                                </div>
-                                <div class="filter-item__dropdown">
-                                    <div class="filter-item__range">
-                                        <fieldset class="fg">
-                                            <span class="filter-item__range-title">от</span>
-                                            <input class="form-control" type="text">
-                                        </fieldset>
-                                        <fieldset class="fg">
-                                            <span class="filter-item__range-title">до</span>
-                                            <input class="form-control" type="text">
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filter__nav">
-                            <button class="filter__clear">
-                                <span>Очистить</span>
-                            </button>
-                            <button class="filter__apply m-btn m-btn-blue">
-                                <span>Применить</span>
-                            </button>
-                        </div>
+                    <div class="page-top2__links">
+                        <a href="" class="page-top2__link _active"><span>Главное</span></a>
+                        <a href="" class="page-top2__link"><span>Новости</span></a>
+                        <a href="" class="page-top2__link"><span>Проверено на себе</span></a>
+                        <a href="" class="page-top2__link"><span>Идеи для путешествий</span></a>
                     </div>
                 </div>
             </section>
 
-            <section class="tour-catalog">
+            <section class="blog">
                 <div class="container">
-                    <div class="popular-tours__items grid-column3 grid-column2-tablet grid-full-mob">
-                        <div class="tour-card _small">
-                            <button class="tour-card__favourite favourite-btn">
-                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
-                                </svg>
-                            </button>
-                            <a href="" class="tour-card__img">
-                                <img src="img/popular-1.webp" alt="">
-                            </a>
-                            <div class="tour-card__content">
-                                <div class="tour-card__date">
-                                    <span class="text18 text16-tablet blue-text">17.06.2023 – 24.06.2023, + 8 дат</span>
-                                </div>
-                                <a href="" class="tour-card__title">
-                                    <span class="text26 text24-tablet semi-bold-text">Таинственные острова</span>
-                                </a>
-
+                    <div class="blog__items grid-column3 grid-column2-tablet grid-full-mob">
+                        <a href="" class="article-card _big">
+                            <div class="article-card__img">
+                                <img src="img/article-1.webp" alt="">
                             </div>
-                            <div class="tour-card__bottom">
-                                <div class="tour-card__info">
-                                    <div class="tour-card__duration">
-                                        <span class="text16">8 дней / 7 ночей</span>
-                                    </div>
-                                    <div class="tour-card__type">
-                                        <span class="text16">Поход, водный тур, доступен <br> с кэшбеком</span>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Уехать, чтобы найти себя? 6 главных тревел-трендов 2023
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
                                     </div>
                                 </div>
-                                <a href="" class="tour-card__price">
-
-                                    <span class="text16">142 000 ₽</span>
-                                </a>
                             </div>
-                        </div>
 
-                        <div class="tour-card _small">
-                            <button class="tour-card__favourite favourite-btn">
-                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
-                                </svg>
-                            </button>
-                            <a href="" class="tour-card__img">
-                                <img src="img/popular-2.webp" alt="">
-                            </a>
-                            <div class="tour-card__content">
-                                <div class="tour-card__date">
-                                    <span class="text18 text16-tablet blue-text">17.02.2023 – 24.02.2023, + 8 дат</span>
+                        </a>
+
+                        <a href="" class="article-card _big">
+                            <div class="article-card__img">
+                                <img src="img/article-2.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Вместе выгоднее: специальные условия для путешествий с семьей и друзьями
                                 </div>
-                                <a href="" class="tour-card__title">
-                                    <span class="text26 text24-tablet semi-bold-text">Зимний Итуруп</span>
-                                </a>
-
-                            </div>
-                            <div class="tour-card__bottom">
-                                <div class="tour-card__info">
-                                    <div class="tour-card__duration">
-                                        <span class="text16">8 дней / 7 ночей</span>
-                                    </div>
-                                    <div class="tour-card__type">
-                                        <span class="text16">Поход, экстрим тур, доступен <br> с кэшбеком</span>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
                                     </div>
                                 </div>
-                                <a href="" class="tour-card__price">
-
-                                    <span class="text13">64 000 ₽</span>
-
-                                    <span class="text16">59 500 ₽</span>
-                                </a>
                             </div>
-                        </div>
 
-                        <div class="tour-card _small">
-                            <button class="tour-card__favourite favourite-btn">
-                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
-                                </svg>
-                            </button>
-                            <a href="" class="tour-card__img">
-                                <img src="img/popular-3.webp" alt="">
-                            </a>
-                            <div class="tour-card__content">
-                                <div class="tour-card__date">
-                                    <span class="text18 text16-tablet blue-text">17.06.2023, 21.06.2023, + 8 дат</span>
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-3.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    В гостях у морских зверей: как правильно наблюдать за жителями океана
                                 </div>
-                                <a href="" class="tour-card__title">
-                                    <span class="text26 text24-tablet semi-bold-text">Маяк Анива</span>
-                                </a>
-
-                            </div>
-                            <div class="tour-card__bottom">
-                                <div class="tour-card__info">
-                                    <div class="tour-card__duration">
-                                        <span class="text16">10 часов</span>
-                                    </div>
-                                    <div class="tour-card__type">
-                                        <span class="text16">Водный тур, доступен <br> с кэшбеком</span>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
                                     </div>
                                 </div>
-                                <a href="" class="tour-card__price">
-
-                                    <span class="text16">5 000 ₽</span>
-                                </a>
                             </div>
-                        </div>
 
-                        <div class="tour-card _small">
-                            <button class="tour-card__favourite favourite-btn">
-                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
-                                </svg>
-                            </button>
-                            <a href="" class="tour-card__img">
-                                <img src="img/popular-4.webp" alt="">
-                            </a>
-                            <div class="tour-card__content">
-                                <div class="tour-card__date">
-                                    <span class="text18 text16-tablet blue-text">17.06.2023, 24.06.2023, + 5 дат</span>
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-1.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
                                 </div>
-                                <a href="" class="tour-card__title">
-                                    <span class="text26 text24-tablet semi-bold-text">Мыс Пильво</span>
-                                </a>
-
-                            </div>
-                            <div class="tour-card__bottom">
-                                <div class="tour-card__info">
-                                    <div class="tour-card__duration">
-                                        <span class="text16">10 часов</span>
-                                    </div>
-                                    <div class="tour-card__type">
-                                        <span class="text16">Поход, джип тур, доступен <br> с кэшбеком</span>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
                                     </div>
                                 </div>
-                                <a href="" class="tour-card__price">
-
-                                    <span class="text16">5 000 ₽</span>
-                                </a>
                             </div>
-                        </div>
 
-                        <div class="tour-card _small">
-                            <button class="tour-card__favourite favourite-btn">
-                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
-                                </svg>
-                            </button>
-                            <a href="" class="tour-card__img">
-                                <img src="img/popular-5.webp" alt="">
-                            </a>
-                            <div class="tour-card__content">
-                                <div class="tour-card__date">
-                                    <span class="text18 text16-tablet blue-text">17.06.2023, 24.06.2023, + 8 дат</span>
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-2.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
                                 </div>
-                                <a href="" class="tour-card__title">
-                                    <span class="text26 text24-tablet semi-bold-text">Тайны и легенды древнего Алтая</span>
-                                </a>
-
-                            </div>
-                            <div class="tour-card__bottom">
-                                <div class="tour-card__info">
-                                    <div class="tour-card__duration">
-                                        <span class="text16">8 дней / 7 ночей</span>
-                                    </div>
-                                    <div class="tour-card__type">
-                                        <span class="text16">Поход, водный тур</span>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
                                     </div>
                                 </div>
-                                <a href="" class="tour-card__price">
-
-                                    <span class="text16">61 400 ₽</span>
-                                </a>
                             </div>
-                        </div>
 
-                        <div class="tour-card _small">
-                            <button class="tour-card__favourite favourite-btn">
-                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21.1155C12 21.1155 0 14.3955 0 6.23549C0 3.261 2.09951 0.700013 5.01624 0.116668C7.93296 -0.466678 10.856 1.08981 12 3.83549V3.83549C13.144 1.08981 16.067 -0.466678 18.9838 0.116668C21.9005 0.700013 24 3.261 24 6.23549C24 14.3955 12 21.1155 12 21.1155Z" fill="#D9D9D9" />
-                                </svg>
-                            </button>
-                            <a href="" class="tour-card__img">
-                                <img src="img/popular-6.webp" alt="">
-                            </a>
-                            <div class="tour-card__content">
-                                <div class="tour-card__date">
-                                    <span class="text18 text16-tablet blue-text">17.06.2023, 24.06.2023, + 4 дат</span>
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-3.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
                                 </div>
-                                <a href="" class="tour-card__title">
-                                    <span class="text26 text24-tablet semi-bold-text">Джип тур на мыс Слепиковского</span>
-                                </a>
-
-                            </div>
-                            <div class="tour-card__bottom">
-                                <div class="tour-card__info">
-                                    <div class="tour-card__duration">
-                                        <span class="text16">7 часов</span>
-                                    </div>
-                                    <div class="tour-card__type">
-                                        <span class="text16">Поход, джип тур</span>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
                                     </div>
                                 </div>
-                                <a href="" class="tour-card__price">
-
-                                    <span class="text16">7 000 ₽</span>
-                                </a>
                             </div>
-                        </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-2.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-3.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-3.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-1.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-2.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-3.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-2.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
+
+                        <a href="" class="article-card ">
+                            <div class="article-card__img">
+                                <img src="img/article-3.webp" alt="">
+                            </div>
+                            <div class="article-card__content">
+                                <div class="text22 semi-bold-text">
+                                    Таинственные колоны мыса Столбчатый
+                                </div>
+                                <div class="article-card__date">
+                                    <div class="text18 blue-text">
+                                        1 июня 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                        </a>
 
                     </div>
-
+                    <div class="blog__more">
+                        <button class="m-btn _big m-btn-yellow">
+                            <span>Загрузить еще</span>
+                        </button>
+                    </div>
                     <div class="m-pagination">
                         <a href="" class="m-pagination__item"><span>1</span></a>
                         <a href="" class="m-pagination__item _active"><span>2</span></a>
@@ -645,8 +519,8 @@
                 </div>
 
             </section>
-
         </main>
+
         <footer class="footer _gray-footer">
             <img src="img/footer.webp" alt="" class="footer__bg">
 
